@@ -1,0 +1,53 @@
+/* Apply styles to the form container */
+form {
+    width: 300px; /* Adjust the width as needed */
+    margin: 0 auto; /* Center the form horizontally */
+    padding: 20px;
+    border: 1px solid #ccc;
+    background-color: #f9f9f9;
+    height: 30vh;
+  }
+  
+  /* Style the form labels */
+  form label {
+    display: block;
+    margin-bottom: 5px;
+  }
+  
+  /* Style the input fields */
+  form input[type="text"] {
+    width: 80%;
+    padding: 10px;
+    margin-bottom: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+  }
+  
+  /* Style the Update button */
+  form button[type="submit"] {
+    background-color: #007BFF;
+    color: #fff;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  
+  /* Disable the button when the form is invalid */
+  form button[disabled] {
+    background-color: #ccc;
+    cursor: not-allowed;
+  }
+  
+  /* Style the success message */
+  p {
+    text-align: center;
+    color: green;
+    margin: 10px 0;
+  }
+  a:hover{
+
+    text-decoration: underline;
+    margin-top: 10px;
+    
+  }

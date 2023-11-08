@@ -1,0 +1,14 @@
+.voter-list table{
+    text-align: center;
+    font-style: var(#007BFF);
+}
+.voter-list h2{
+    text-align: left;
+    table-layout: auto ;
+}
+.voter-list #tr{
+    text-align: center;
+}
+.voter-list table{
+    table-layout: center;
+}

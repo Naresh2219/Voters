@@ -1,0 +1,74 @@
+/* Style for the voter registration form */
+.container {
+    display: ;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+  }
+.voter-registration-form {
+    max-width: 400px;
+    margin: 0 auto;
+    padding: 20px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    background-color: #f9f9f9;
+    text-align: center;
+  }
+  
+  /* Style for the form heading */
+  .voter-registration-form h2 {
+    font-size: 24px;
+    margin-bottom: 20px;
+  }
+  
+  /* Style for form groups (each input field and label) */
+  .form-group {
+    margin: 20px 0;
+    text-align: left;
+  }
+  
+  /* Style for labels */
+  .form-group label {
+    display: block;
+    font-weight: bold;
+  }
+  
+  /* Style for input fields */
+  .form-group input {
+    width: 100%;
+    padding: 8px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+  }
+  
+  /* Style for the submit button */
+  .form-group button {
+    background-color: #007bff;
+    color: #fff;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  
+  /* Style for the success message (only displayed when registration is successful) */
+  .success-message {
+    color: #4caf50;
+    font-weight: bold;
+    margin-top: 10px;
+  }
+  
+  /* Style for the link to the voter list page */
+  a {
+    text-decoration: none;
+    color: #007bff;
+    font-weight: bold;
+    margin-top: 10px;
+    display: block;
+  }
+  
+  /* Style for the link on hover */
+  a:hover {
+    text-decoration: underline;
+  }
+  

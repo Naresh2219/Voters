@@ -1,0 +1,14 @@
+.naresh{
+    text-align: center;
+    color: block(255, 0, 72);
+    height: auto;
+}
+.naresh h2{
+    font-style: italic;
+    font-size: 100px;
+}
+.naresh a{
+    background-position: #ff4844;
+    padding: 10px 30px;
+    backdrop-filter: 20px;
+}

@@ -1,0 +1,21 @@
+<div class="voter-list">
+    <h2>Voters List</h2>
+    <table border="1">
+      <tr>
+        <td>VoterId</td>
+        <td>VoterParty</td>
+        <td>VoterArea</td>
+        <td>Actions</td>
+      </tr>
+      <tr *ngFor="let voter of voters">
+        <td>{{voter.voterId}}</td>
+        <td>{{ voter.voterParty }}</td>
+        <td>{{ voter.voterArea }}</td>
+        <td>
+          <button (click)="updatevoter(voter)">Edit</button>
+          <button (click)="deleteVoter(voter)">Delete</button>
+        </td>
+      </tr>
+    </table>
+  </div>
+  

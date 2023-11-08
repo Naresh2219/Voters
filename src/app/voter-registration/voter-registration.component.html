@@ -1,0 +1,20 @@
+<div class="container">
+<div class="voter-registration-form">
+  <h2>Voter Registration</h2>
+  <form [formGroup]="registrationForm" (ngSubmit)="onSubmit()">
+    <div class="form-group">
+      <label for="voterParty">Voter Party:</label>
+      <input type="text" id="voterParty" formControlName="voterParty" required>
+    </div>
+    <div class="form-group">
+      <label for="voterArea">Voter Area:</label>
+      <input type="text" id="voterArea" formControlName="voterArea" required>
+    </div>
+    <div class="form-group">
+      <button type="submit" [disabled]="!registrationForm.valid">Register</button>
+    </div>
+  </form>
+  <p class="success-message" *ngIf="registrationSuccessful">Registration successful!</p>
+  <a [routerLink]="['/voter-list']">Go to Voter List</a>
+</div>
+</div>
